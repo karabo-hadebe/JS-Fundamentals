@@ -4,7 +4,9 @@ function say(a) {
 	else {
 	console.log(a);}
 }
-let a = "hwkki"
+let a = "HBTN"
+let n = "HBTN cool"
 
 say()
 say(a)
+say(n)
