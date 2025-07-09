@@ -1,10 +1,10 @@
 const args = process.argv.slice(2);
-const number = parseInt(args[0]);
 
-if (isNaN(number)) {
-        console.log("Not a number");
+function integer() {
+        const checker = Number(args[0], 10);
+        if (Number.isInteger(checker)) {
+        console.log("My number:" + " " + checker);
 } else {
-        console.log("My number);
+        console.log("Not a number");
 }}
 integer()
-
