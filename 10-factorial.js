@@ -9,6 +9,6 @@ function factorial(a) {
 	return a * factorial(a - 1);
 }
 
-const a = args[0]
+const a = parseInt(args[0])
 
 console.log(factorial(a))
