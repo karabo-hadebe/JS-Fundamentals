@@ -7,6 +7,5 @@ function integer() {
 } else {
         console.log("Not a number");
 }}
-
 integer()
 
