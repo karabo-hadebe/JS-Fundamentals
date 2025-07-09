@@ -1,8 +1,7 @@
-function say(a, b) {
-	if (a === undefined) {console.log("No argument");
-	} else if (b === undefined) { console.log("HBTN");
-	} else {console.log("HBTN cool");
-	}}
-say()
-say("anything")
-say("anything", "else")
+const args = process.argv.slice(2);
+
+if (args[0] === undefined) {
+  console.log("No argument");
+} else {
+  console.log(args[0]);
+} 
